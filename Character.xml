@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.2_09" class="java.beans.XMLDecoder"> 
+ <array class="Character" length="4"> 
+  <void index="0"> 
+   <object class="Character"> 
+    <void property="attack"> 
+     <int>4</int> 
+    </void> 
+    <void property="damage"> 
+     <int>1</int> 
+    </void> 
+    <void property="defense"> 
+     <int>3</int> 
+    </void> 
+    <void property="energy"> 
+     <int>6</int> 
+    </void> 
+    <void property="imageName"> 
+     <string>ivorCardImage.png</string> 
+    </void> 
+    <void property="life"> 
+     <int>12</int> 
+    </void> 
+    <void property="name"> 
+     <string>Ivor</string> 
+    </void> 
+    <void property="stun"> 
+     <int>1</int> 
+    </void> 
+    <void property="style"> 
+     <string>Wrestling</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void index="1"> 
+   <object class="Character"> 
+    <void property="attack"> 
+     <int>3</int> 
+    </void> 
+    <void property="defense"> 
+     <int>3</int> 
+    </void> 
+    <void property="energy"> 
+     <int>11</int> 
+    </void> 
+    <void property="imageName"> 
+     <string>mayCardImage.png</string> 
+    </void> 
+    <void property="life"> 
+     <int>8</int> 
+    </void> 
+    <void property="name"> 
+     <string>May</string> 
+    </void> 
+    <void property="style"> 
+     <string>Karate</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void index="2"> 
+   <object class="Character"> 
+    <void property="attack"> 
+     <int>6</int> 
+    </void> 
+    <void property="defense"> 
+     <int>4</int> 
+    </void> 
+    <void property="energy"> 
+     <int>8</int> 
+    </void> 
+    <void property="imageName"> 
+     <string>hiroCardImage.png</string> 
+    </void> 
+    <void property="life"> 
+     <int>10</int> 
+    </void> 
+    <void property="name"> 
+     <string>Hiro</string> 
+    </void> 
+    <void property="style"> 
+     <string>Karate</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void index="3"> 
+   <object class="Character"> 
+    <void property="attack"> 
+     <int>4</int> 
+    </void> 
+    <void property="defense"> 
+     <int>6</int> 
+    </void> 
+    <void property="energy"> 
+     <int>8</int> 
+    </void> 
+    <void property="imageName"> 
+     <string>joeCardImage.png</string> 
+    </void> 
+    <void property="life"> 
+     <int>8</int> 
+    </void> 
+    <void property="name"> 
+     <string>Joe</string> 
+    </void> 
+    <void property="style"> 
+     <string>Karate</string> 
+    </void> 
+   </object> 
+  </void> 
+ </array> 
+</java> 

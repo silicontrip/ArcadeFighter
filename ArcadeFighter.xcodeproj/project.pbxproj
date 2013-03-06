@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D2895940919729800947E23 /* CharacterFactory.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D2895930919729800947E23 /* CharacterFactory.java */; };
+		4D2895A10919790100947E23 /* Character.xml in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4D2895A00919790100947E23 /* Character.xml */; settings = {JAVA_ARCHIVE_SUBDIR = ../Documents/dev/ArcadeFighter; }; };
+		4D28963C091B4D4200947E23 /* NetworkClient.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D28963B091B4D4200947E23 /* NetworkClient.java */; };
+		4D289654091B5AE400947E23 /* Network.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D289653091B5AE400947E23 /* Network.java */; };
+		4D5815B6092C45500020A252 /* KeepZeroCostDefense.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D5815B5092C45500020A252 /* KeepZeroCostDefense.java */; };
+		4D5815CA092C48AF0020A252 /* Deck.xml in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4D5815C9092C48AF0020A252 /* Deck.xml */; settings = {JAVA_ARCHIVE_SUBDIR = ../Documents/dev/ArcadeFighter; }; };
+		4D58169A092D9B7C0020A252 /* AnyAskAngle.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581699092D9B7C0020A252 /* AnyAskAngle.java */; };
+		4D5816A3092D9C8D0020A252 /* MostDiscardedAngle.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D5816A2092D9C8C0020A252 /* MostDiscardedAngle.java */; };
+		4D5816B8092D9FCE0020A252 /* NotRepeatedAngle.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D5816B7092D9FCE0020A252 /* NotRepeatedAngle.java */; };
+		4D5816C9092DA15D0020A252 /* LeastCostAttack.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D5816C8092DA15D0020A252 /* LeastCostAttack.java */; };
+		4D581710092DB4920020A252 /* NotRepeatedIfHitAngle.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D58170F092DB4920020A252 /* NotRepeatedIfHitAngle.java */; };
+		4D58172A092DBBC10020A252 /* CheatingAngle.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581729092DBBC10020A252 /* CheatingAngle.java */; };
+		4D581888093733530020A252 /* Angle.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581887093733530020A252 /* Angle.java */; };
+		4D58194409373F3C0020A252 /* CardFactory.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D58194309373F3B0020A252 /* CardFactory.java */; };
+		4D581B8D093830130020A252 /* AttackPlay.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581B87093830130020A252 /* AttackPlay.java */; };
+		4D581B8E093830130020A252 /* DefensePlay.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581B88093830130020A252 /* DefensePlay.java */; };
+		4D581B8F093830130020A252 /* DefenseRetainPlay.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581B89093830130020A252 /* DefenseRetainPlay.java */; };
+		4D581B90093830130020A252 /* OpenStancePlay.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581B8A093830130020A252 /* OpenStancePlay.java */; };
+		4D581B91093830130020A252 /* PlayStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581B8B093830130020A252 /* PlayStrategy.java */; };
+		4D581B92093830130020A252 /* RemovePlay.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581B8C093830130020A252 /* RemovePlay.java */; };
+		4D581BB60938342A0020A252 /* AnotherCardIsValid.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BB10938342A0020A252 /* AnotherCardIsValid.java */; };
+		4D581BB70938342A0020A252 /* AttackIsValid.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BB20938342A0020A252 /* AttackIsValid.java */; };
+		4D581BB80938342A0020A252 /* DefenseIsValid.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BB30938342A0020A252 /* DefenseIsValid.java */; };
+		4D581BB90938342A0020A252 /* IsValidStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BB40938342A0020A252 /* IsValidStrategy.java */; };
+		4D581BBA0938342A0020A252 /* PreviousAngleIsValid.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BB50938342A0020A252 /* PreviousAngleIsValid.java */; };
+		4D581BC0093834770020A252 /* CanUseStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BBD093834770020A252 /* CanUseStrategy.java */; };
+		4D581BC1093834770020A252 /* IncreasedDefenseCostCanUse.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BBE093834770020A252 /* IncreasedDefenseCostCanUse.java */; };
+		4D581BC2093834770020A252 /* NoBlockCanUse.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BBF093834770020A252 /* NoBlockCanUse.java */; };
+		4D581BD5093836B60020A252 /* AbsoluteDamage.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BD1093836B60020A252 /* AbsoluteDamage.java */; };
+		4D581BD6093836B60020A252 /* BlockDamage.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BD2093836B60020A252 /* BlockDamage.java */; };
+		4D581BD7093836B60020A252 /* NoneDamage.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BD3093836B60020A252 /* NoneDamage.java */; };
+		4D581BD8093836B60020A252 /* RelativeDamage.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BD4093836B60020A252 /* RelativeDamage.java */; };
+		4D581BDA093836C00020A252 /* DamageStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BD9093836C00020A252 /* DamageStrategy.java */; };
+		4D581BE30938374A0020A252 /* NoneCanUse.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BE20938374A0020A252 /* NoneCanUse.java */; };
+		4D581BF3093839610020A252 /* ComboDamageResolution.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BED093839600020A252 /* ComboDamageResolution.java */; };
+		4D581BF4093839610020A252 /* DamageResolutionStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BEE093839610020A252 /* DamageResolutionStrategy.java */; };
+		4D581BF5093839610020A252 /* GainDamageResolution.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BEF093839610020A252 /* GainDamageResolution.java */; };
+		4D581BF6093839610020A252 /* IncreaseCostDamageResolution.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BF0093839610020A252 /* IncreaseCostDamageResolution.java */; };
+		4D581BF7093839610020A252 /* NoneDamageResolution.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BF1093839610020A252 /* NoneDamageResolution.java */; };
+		4D581BF8093839610020A252 /* ReduceDamageResolution.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581BF2093839610020A252 /* ReduceDamageResolution.java */; };
+		4D581D44093C31FE0020A252 /* ProbabilityAngle.java in Sources */ = {isa = PBXBuildFile; fileRef = 4D581D43093C31FE0020A252 /* ProbabilityAngle.java */; };
+		4D581F1A093FFB220020A252 /* Card.xml in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4D581F19093FFB220020A252 /* Card.xml */; settings = {JAVA_ARCHIVE_SUBDIR = ../Documents/dev/ArcadeFighter; }; };
+		4DA937BE0910931000F1C5EE /* Gui.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DA937BD0910931000F1C5EE /* Gui.java */; };
+		4DC8ADC7091879F5006D8EBF /* ArcadeFighter.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DD20DC1090BCBB5004ED981 /* ArcadeFighter.java */; };
+		4DD20DA4090BCAAC004ED981 /* Card.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DD20DA3090BCAAC004ED981 /* Card.java */; };
+		4DD20DA6090BCAB5004ED981 /* Character.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DD20DA5090BCAB5004ED981 /* Character.java */; };
+		4DD20DAB090BCABE004ED981 /* Deck.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DD20DA7090BCABE004ED981 /* Deck.java */; };
+		4DD20DAD090BCABE004ED981 /* Interface.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DD20DA9090BCABE004ED981 /* Interface.java */; };
+		4DD20DAE090BCABE004ED981 /* Main.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DD20DAA090BCABE004ED981 /* Main.java */; };
+		4DD20DB0090BCAC5004ED981 /* Player.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DD20DAF090BCAC5004ED981 /* Player.java */; };
+		4DF28B0709186B920054CBAD /* attackCardImage.png in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4DF28B0009186B920054CBAD /* attackCardImage.png */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+		4DF28B0809186B920054CBAD /* characterCardImage.png in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4DF28B0109186B920054CBAD /* characterCardImage.png */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+		4DF28B0909186B920054CBAD /* defenseCardImage.png in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4DF28B0209186B920054CBAD /* defenseCardImage.png */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+		4DF28B0A09186B920054CBAD /* hiroCardImage.png in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4DF28B0309186B920054CBAD /* hiroCardImage.png */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+		4DF28B0B09186B920054CBAD /* ivorCardImage.png in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4DF28B0409186B920054CBAD /* ivorCardImage.png */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+		4DF28B0C09186B920054CBAD /* joeCardImage.png in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4DF28B0509186B920054CBAD /* joeCardImage.png */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+		4DF28B0D09186B920054CBAD /* mayCardImage.png in JavaArchive */ = {isa = PBXBuildFile; fileRef = 4DF28B0609186B920054CBAD /* mayCardImage.png */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+		4DF679200929A07D00A34617 /* AskAngleStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679180929A07D00A34617 /* AskAngleStrategy.java */; };
+		4DF679210929A07D00A34617 /* AskAttackStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679190929A07D00A34617 /* AskAttackStrategy.java */; };
+		4DF679220929A07D00A34617 /* AskBoolStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6791A0929A07D00A34617 /* AskBoolStrategy.java */; };
+		4DF679230929A07D00A34617 /* AskCharacterStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6791B0929A07D00A34617 /* AskCharacterStrategy.java */; };
+		4DF679240929A07D00A34617 /* AskDefenseStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6791C0929A07D00A34617 /* AskDefenseStrategy.java */; };
+		4DF679250929A07D00A34617 /* AskDiscardAttackStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6791D0929A07D00A34617 /* AskDiscardAttackStrategy.java */; };
+		4DF679260929A07D00A34617 /* AskDiscardDefenseStrategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6791E0929A07D00A34617 /* AskDiscardDefenseStrategy.java */; };
+		4DF679270929A07D00A34617 /* BestDefense.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6791F0929A07D00A34617 /* BestDefense.java */; };
+		4DF6792B0929A0F200A34617 /* DuplicateCoverDiscardDefense.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679280929A0F200A34617 /* DuplicateCoverDiscardDefense.java */; };
+		4DF6792C0929A0F200A34617 /* FalseAskBool.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679290929A0F200A34617 /* FalseAskBool.java */; };
+		4DF6792D0929A0F200A34617 /* FixedAskCharacter.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6792A0929A0F200A34617 /* FixedAskCharacter.java */; };
+		4DF6792F0929A10500A34617 /* LeastDamageDiscardAttack.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6792E0929A10500A34617 /* LeastDamageDiscardAttack.java */; };
+		4DF679310929A10F00A34617 /* MostCostDiscardAttack.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679300929A10F00A34617 /* MostCostDiscardAttack.java */; };
+		4DF6793A0929A18D00A34617 /* RandomAskBool.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679330929A18D00A34617 /* RandomAskBool.java */; };
+		4DF6793B0929A18D00A34617 /* RandomAskCharacter.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679340929A18D00A34617 /* RandomAskCharacter.java */; };
+		4DF6793C0929A18D00A34617 /* RandomAttack.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679350929A18D00A34617 /* RandomAttack.java */; };
+		4DF6793D0929A18D00A34617 /* RandomDefense.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679360929A18D00A34617 /* RandomDefense.java */; };
+		4DF6793E0929A18D00A34617 /* RandomDiscardAttack.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679370929A18D00A34617 /* RandomDiscardAttack.java */; };
+		4DF6793F0929A18D00A34617 /* RandomDiscardDefense.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679380929A18D00A34617 /* RandomDiscardDefense.java */; };
+		4DF679410929A19500A34617 /* MostDamageAttack.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679400929A19500A34617 /* MostDamageAttack.java */; };
+		4DF6797D0929A41500A34617 /* InterfaceFactory.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6797C0929A41500A34617 /* InterfaceFactory.java */; };
+		4DF6798D0929A61E00A34617 /* Strategy.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6798C0929A61E00A34617 /* Strategy.java */; };
+		4DF679DC0929ADF700A34617 /* DeckFactory.java in Sources */ = {isa = PBXBuildFile; fileRef = 4DF679DB0929ADF700A34617 /* DeckFactory.java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A0644BC02C7C42C0CC91562 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D2895930919729800947E23 /* CharacterFactory.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = CharacterFactory.java; path = /Users/mark/Developer/ArcadeFighter/CharacterFactory.java; sourceTree = "<absolute>"; };
+		4D2895A00919790100947E23 /* Character.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Character.xml; path = /Users/mark/Developer/ArcadeFighter/Character.xml; sourceTree = "<absolute>"; };
+		4D28963B091B4D4200947E23 /* NetworkClient.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = NetworkClient.java; path = /Users/mark/Developer/ArcadeFighter/NetworkClient.java; sourceTree = "<absolute>"; };
+		4D289653091B5AE400947E23 /* Network.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Network.java; path = /Users/mark/Developer/ArcadeFighter/Interface/Network.java; sourceTree = "<absolute>"; };
+		4D5815B5092C45500020A252 /* KeepZeroCostDefense.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = KeepZeroCostDefense.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/KeepZeroCostDefense.java; sourceTree = "<absolute>"; };
+		4D5815C9092C48AF0020A252 /* Deck.xml */ = {isa = PBXFileReference; explicitFileType = text.xml; fileEncoding = 30; name = Deck.xml; path = /Users/mark/Developer/ArcadeFighter/Deck.xml; sourceTree = "<absolute>"; };
+		4D581699092D9B7C0020A252 /* AnyAskAngle.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AnyAskAngle.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AnyAskAngle.java; sourceTree = "<absolute>"; };
+		4D5816A2092D9C8C0020A252 /* MostDiscardedAngle.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = MostDiscardedAngle.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/MostDiscardedAngle.java; sourceTree = "<absolute>"; };
+		4D5816B7092D9FCE0020A252 /* NotRepeatedAngle.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = NotRepeatedAngle.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/NotRepeatedAngle.java; sourceTree = "<absolute>"; };
+		4D5816C8092DA15D0020A252 /* LeastCostAttack.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = LeastCostAttack.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/LeastCostAttack.java; sourceTree = "<absolute>"; };
+		4D58170F092DB4920020A252 /* NotRepeatedIfHitAngle.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = NotRepeatedIfHitAngle.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/NotRepeatedIfHitAngle.java; sourceTree = "<absolute>"; };
+		4D581729092DBBC10020A252 /* CheatingAngle.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = CheatingAngle.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/CheatingAngle.java; sourceTree = "<absolute>"; };
+		4D581887093733530020A252 /* Angle.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Angle.java; path = /Users/mark/Developer/ArcadeFighter/Angle.java; sourceTree = "<absolute>"; };
+		4D58194309373F3B0020A252 /* CardFactory.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = CardFactory.java; path = /Users/mark/Developer/ArcadeFighter/CardFactory.java; sourceTree = "<absolute>"; };
+		4D581B87093830130020A252 /* AttackPlay.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AttackPlay.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/AttackPlay.java; sourceTree = "<absolute>"; };
+		4D581B88093830130020A252 /* DefensePlay.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = DefensePlay.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/DefensePlay.java; sourceTree = "<absolute>"; };
+		4D581B89093830130020A252 /* DefenseRetainPlay.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = DefenseRetainPlay.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/DefenseRetainPlay.java; sourceTree = "<absolute>"; };
+		4D581B8A093830130020A252 /* OpenStancePlay.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = OpenStancePlay.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/OpenStancePlay.java; sourceTree = "<absolute>"; };
+		4D581B8B093830130020A252 /* PlayStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = PlayStrategy.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/PlayStrategy.java; sourceTree = "<absolute>"; };
+		4D581B8C093830130020A252 /* RemovePlay.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RemovePlay.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/RemovePlay.java; sourceTree = "<absolute>"; };
+		4D581BB10938342A0020A252 /* AnotherCardIsValid.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AnotherCardIsValid.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/AnotherCardIsValid.java; sourceTree = "<absolute>"; };
+		4D581BB20938342A0020A252 /* AttackIsValid.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AttackIsValid.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/AttackIsValid.java; sourceTree = "<absolute>"; };
+		4D581BB30938342A0020A252 /* DefenseIsValid.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = DefenseIsValid.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/DefenseIsValid.java; sourceTree = "<absolute>"; };
+		4D581BB40938342A0020A252 /* IsValidStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = IsValidStrategy.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/IsValidStrategy.java; sourceTree = "<absolute>"; };
+		4D581BB50938342A0020A252 /* PreviousAngleIsValid.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = PreviousAngleIsValid.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/PreviousAngleIsValid.java; sourceTree = "<absolute>"; };
+		4D581BBD093834770020A252 /* CanUseStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = CanUseStrategy.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/CanUseStrategy.java; sourceTree = "<absolute>"; };
+		4D581BBE093834770020A252 /* IncreasedDefenseCostCanUse.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = IncreasedDefenseCostCanUse.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/IncreasedDefenseCostCanUse.java; sourceTree = "<absolute>"; };
+		4D581BBF093834770020A252 /* NoBlockCanUse.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = NoBlockCanUse.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/NoBlockCanUse.java; sourceTree = "<absolute>"; };
+		4D581BD1093836B60020A252 /* AbsoluteDamage.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AbsoluteDamage.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/AbsoluteDamage.java; sourceTree = "<absolute>"; };
+		4D581BD2093836B60020A252 /* BlockDamage.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = BlockDamage.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/BlockDamage.java; sourceTree = "<absolute>"; };
+		4D581BD3093836B60020A252 /* NoneDamage.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = NoneDamage.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/NoneDamage.java; sourceTree = "<absolute>"; };
+		4D581BD4093836B60020A252 /* RelativeDamage.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RelativeDamage.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/RelativeDamage.java; sourceTree = "<absolute>"; };
+		4D581BD9093836C00020A252 /* DamageStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = DamageStrategy.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/DamageStrategy.java; sourceTree = "<absolute>"; };
+		4D581BE20938374A0020A252 /* NoneCanUse.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = NoneCanUse.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/NoneCanUse.java; sourceTree = "<absolute>"; };
+		4D581BED093839600020A252 /* ComboDamageResolution.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = ComboDamageResolution.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/ComboDamageResolution.java; sourceTree = "<absolute>"; };
+		4D581BEE093839610020A252 /* DamageResolutionStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = DamageResolutionStrategy.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/DamageResolutionStrategy.java; sourceTree = "<absolute>"; };
+		4D581BEF093839610020A252 /* GainDamageResolution.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = GainDamageResolution.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/GainDamageResolution.java; sourceTree = "<absolute>"; };
+		4D581BF0093839610020A252 /* IncreaseCostDamageResolution.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = IncreaseCostDamageResolution.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/IncreaseCostDamageResolution.java; sourceTree = "<absolute>"; };
+		4D581BF1093839610020A252 /* NoneDamageResolution.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = NoneDamageResolution.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/NoneDamageResolution.java; sourceTree = "<absolute>"; };
+		4D581BF2093839610020A252 /* ReduceDamageResolution.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = ReduceDamageResolution.java; path = /Users/mark/Developer/ArcadeFighter/CardStrategy/ReduceDamageResolution.java; sourceTree = "<absolute>"; };
+		4D581D43093C31FE0020A252 /* ProbabilityAngle.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = ProbabilityAngle.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/ProbabilityAngle.java; sourceTree = "<absolute>"; };
+		4D581F19093FFB220020A252 /* Card.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Card.xml; path = /Users/mark/Developer/ArcadeFighter/Card.xml; sourceTree = "<absolute>"; };
+		4DA937BD0910931000F1C5EE /* Gui.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Gui.java; path = /Users/mark/Developer/ArcadeFighter/Interface/Gui.java; sourceTree = "<absolute>"; };
+		4DD20DA3090BCAAC004ED981 /* Card.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Card.java; path = /Users/mark/Developer/ArcadeFighter/Card.java; sourceTree = "<absolute>"; };
+		4DD20DA5090BCAB5004ED981 /* Character.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Character.java; path = /Users/mark/Developer/ArcadeFighter/Character.java; sourceTree = "<absolute>"; };
+		4DD20DA7090BCABE004ED981 /* Deck.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Deck.java; path = /Users/mark/Developer/ArcadeFighter/Deck.java; sourceTree = "<absolute>"; };
+		4DD20DA9090BCABE004ED981 /* Interface.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Interface.java; path = /Users/mark/Developer/ArcadeFighter/Interface/Interface.java; sourceTree = "<absolute>"; };
+		4DD20DAA090BCABE004ED981 /* Main.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Main.java; path = /Users/mark/Developer/ArcadeFighter/Main.java; sourceTree = "<absolute>"; };
+		4DD20DAF090BCAC5004ED981 /* Player.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Player.java; path = /Users/mark/Developer/ArcadeFighter/Player.java; sourceTree = "<absolute>"; };
+		4DD20DC1090BCBB5004ED981 /* ArcadeFighter.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = ArcadeFighter.java; path = /Users/mark/Developer/ArcadeFighter/ArcadeFighter.java; sourceTree = "<absolute>"; };
+		4DF28B0009186B920054CBAD /* attackCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = attackCardImage.png; path = Images/attackCardImage.png; sourceTree = "<group>"; };
+		4DF28B0109186B920054CBAD /* characterCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = characterCardImage.png; path = Images/characterCardImage.png; sourceTree = "<group>"; };
+		4DF28B0209186B920054CBAD /* defenseCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defenseCardImage.png; path = Images/defenseCardImage.png; sourceTree = "<group>"; };
+		4DF28B0309186B920054CBAD /* hiroCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hiroCardImage.png; path = Images/hiroCardImage.png; sourceTree = "<group>"; };
+		4DF28B0409186B920054CBAD /* ivorCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ivorCardImage.png; path = Images/ivorCardImage.png; sourceTree = "<group>"; };
+		4DF28B0509186B920054CBAD /* joeCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joeCardImage.png; path = Images/joeCardImage.png; sourceTree = "<group>"; };
+		4DF28B0609186B920054CBAD /* mayCardImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mayCardImage.png; path = Images/mayCardImage.png; sourceTree = "<group>"; };
+		4DF679180929A07D00A34617 /* AskAngleStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AskAngleStrategy.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AskAngleStrategy.java; sourceTree = "<absolute>"; };
+		4DF679190929A07D00A34617 /* AskAttackStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AskAttackStrategy.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AskAttackStrategy.java; sourceTree = "<absolute>"; };
+		4DF6791A0929A07D00A34617 /* AskBoolStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AskBoolStrategy.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AskBoolStrategy.java; sourceTree = "<absolute>"; };
+		4DF6791B0929A07D00A34617 /* AskCharacterStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AskCharacterStrategy.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AskCharacterStrategy.java; sourceTree = "<absolute>"; };
+		4DF6791C0929A07D00A34617 /* AskDefenseStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AskDefenseStrategy.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AskDefenseStrategy.java; sourceTree = "<absolute>"; };
+		4DF6791D0929A07D00A34617 /* AskDiscardAttackStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AskDiscardAttackStrategy.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AskDiscardAttackStrategy.java; sourceTree = "<absolute>"; };
+		4DF6791E0929A07D00A34617 /* AskDiscardDefenseStrategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = AskDiscardDefenseStrategy.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/AskDiscardDefenseStrategy.java; sourceTree = "<absolute>"; };
+		4DF6791F0929A07D00A34617 /* BestDefense.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = BestDefense.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/BestDefense.java; sourceTree = "<absolute>"; };
+		4DF679280929A0F200A34617 /* DuplicateCoverDiscardDefense.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = DuplicateCoverDiscardDefense.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/DuplicateCoverDiscardDefense.java; sourceTree = "<absolute>"; };
+		4DF679290929A0F200A34617 /* FalseAskBool.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = FalseAskBool.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/FalseAskBool.java; sourceTree = "<absolute>"; };
+		4DF6792A0929A0F200A34617 /* FixedAskCharacter.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = FixedAskCharacter.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/FixedAskCharacter.java; sourceTree = "<absolute>"; };
+		4DF6792E0929A10500A34617 /* LeastDamageDiscardAttack.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = LeastDamageDiscardAttack.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/LeastDamageDiscardAttack.java; sourceTree = "<absolute>"; };
+		4DF679300929A10F00A34617 /* MostCostDiscardAttack.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = MostCostDiscardAttack.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/MostCostDiscardAttack.java; sourceTree = "<absolute>"; };
+		4DF679330929A18D00A34617 /* RandomAskBool.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RandomAskBool.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/RandomAskBool.java; sourceTree = "<absolute>"; };
+		4DF679340929A18D00A34617 /* RandomAskCharacter.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RandomAskCharacter.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/RandomAskCharacter.java; sourceTree = "<absolute>"; };
+		4DF679350929A18D00A34617 /* RandomAttack.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RandomAttack.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/RandomAttack.java; sourceTree = "<absolute>"; };
+		4DF679360929A18D00A34617 /* RandomDefense.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RandomDefense.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/RandomDefense.java; sourceTree = "<absolute>"; };
+		4DF679370929A18D00A34617 /* RandomDiscardAttack.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RandomDiscardAttack.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/RandomDiscardAttack.java; sourceTree = "<absolute>"; };
+		4DF679380929A18D00A34617 /* RandomDiscardDefense.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = RandomDiscardDefense.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/RandomDiscardDefense.java; sourceTree = "<absolute>"; };
+		4DF679400929A19500A34617 /* MostDamageAttack.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = MostDamageAttack.java; path = /Users/mark/Developer/ArcadeFighter/Strategy/MostDamageAttack.java; sourceTree = "<absolute>"; };
+		4DF6797C0929A41500A34617 /* InterfaceFactory.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = InterfaceFactory.java; path = /Users/mark/Developer/ArcadeFighter/Interface/InterfaceFactory.java; sourceTree = "<absolute>"; };
+		4DF6798C0929A61E00A34617 /* Strategy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Strategy.java; path = /Users/mark/Developer/ArcadeFighter/Interface/Strategy.java; sourceTree = "<absolute>"; };
+		4DF679DB0929ADF700A34617 /* DeckFactory.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = DeckFactory.java; path = /Users/mark/Developer/ArcadeFighter/DeckFactory.java; sourceTree = "<absolute>"; };
+		6A0644AC02C7C26E0CC91562 /* ArcadeFighter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ArcadeFighter.1; sourceTree = "<group>"; };
+		6A8008AE02C7B68F0CC91562 /* Manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest; sourceTree = "<group>"; };
+		6A9ED92C02B0286D0CC91562 /* ArcadeFighter.jar */ = {isa = PBXFileReference; explicitFileType = archive.jar; includeInIndex = 0; path = ArcadeFighter.jar; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130F8B94001BDF0A11CA292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E6828FFEC88D1A11DB9C8B = {
+			isa = PBXGroup;
+			children = (
+				4D581F19093FFB220020A252 /* Card.xml */,
+				4D5815C9092C48AF0020A252 /* Deck.xml */,
+				4D2895A00919790100947E23 /* Character.xml */,
+				4D581B82093830030020A252 /* CardStrategy */,
+				4D5815C3092C48830020A252 /* Interface */,
+				4D58150B092BE8490020A252 /* Strategy */,
+				4DF28B1009186BCC0054CBAD /* Images */,
+				4DD20DC1090BCBB5004ED981 /* ArcadeFighter.java */,
+				4D581887093733530020A252 /* Angle.java */,
+				4DD20DA3090BCAAC004ED981 /* Card.java */,
+				4D58194309373F3B0020A252 /* CardFactory.java */,
+				4DD20DA5090BCAB5004ED981 /* Character.java */,
+				4D2895930919729800947E23 /* CharacterFactory.java */,
+				4DD20DA7090BCABE004ED981 /* Deck.java */,
+				4DF679DB0929ADF700A34617 /* DeckFactory.java */,
+				4DD20DAA090BCABE004ED981 /* Main.java */,
+				4D28963B091B4D4200947E23 /* NetworkClient.java */,
+				4DD20DAF090BCAC5004ED981 /* Player.java */,
+				6A8008AE02C7B68F0CC91562 /* Manifest */,
+				6A0644A002C7BD230CC91562 /* Documentation */,
+				0120612AFEC8923411DB9C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0120612AFEC8923411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A9ED92C02B0286D0CC91562 /* ArcadeFighter.jar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D58150B092BE8490020A252 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				4DF679180929A07D00A34617 /* AskAngleStrategy.java */,
+				4DF679190929A07D00A34617 /* AskAttackStrategy.java */,
+				4DF6791A0929A07D00A34617 /* AskBoolStrategy.java */,
+				4DF6791B0929A07D00A34617 /* AskCharacterStrategy.java */,
+				4DF6791C0929A07D00A34617 /* AskDefenseStrategy.java */,
+				4DF6791D0929A07D00A34617 /* AskDiscardAttackStrategy.java */,
+				4DF6791E0929A07D00A34617 /* AskDiscardDefenseStrategy.java */,
+				4D5816C8092DA15D0020A252 /* LeastCostAttack.java */,
+				4DF679400929A19500A34617 /* MostDamageAttack.java */,
+				4DF679350929A18D00A34617 /* RandomAttack.java */,
+				4D581699092D9B7C0020A252 /* AnyAskAngle.java */,
+				4D581729092DBBC10020A252 /* CheatingAngle.java */,
+				4D581D43093C31FE0020A252 /* ProbabilityAngle.java */,
+				4D5816A2092D9C8C0020A252 /* MostDiscardedAngle.java */,
+				4D5816B7092D9FCE0020A252 /* NotRepeatedAngle.java */,
+				4D58170F092DB4920020A252 /* NotRepeatedIfHitAngle.java */,
+				4DF679290929A0F200A34617 /* FalseAskBool.java */,
+				4DF679330929A18D00A34617 /* RandomAskBool.java */,
+				4DF6792A0929A0F200A34617 /* FixedAskCharacter.java */,
+				4DF679340929A18D00A34617 /* RandomAskCharacter.java */,
+				4DF6791F0929A07D00A34617 /* BestDefense.java */,
+				4DF679360929A18D00A34617 /* RandomDefense.java */,
+				4DF679370929A18D00A34617 /* RandomDiscardAttack.java */,
+				4DF6792E0929A10500A34617 /* LeastDamageDiscardAttack.java */,
+				4DF679300929A10F00A34617 /* MostCostDiscardAttack.java */,
+				4DF679380929A18D00A34617 /* RandomDiscardDefense.java */,
+				4D5815B5092C45500020A252 /* KeepZeroCostDefense.java */,
+				4DF679280929A0F200A34617 /* DuplicateCoverDiscardDefense.java */,
+			);
+			name = Strategy;
+			sourceTree = "<group>";
+		};
+		4D5815C3092C48830020A252 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4DD20DA9090BCABE004ED981 /* Interface.java */,
+				4DF6797C0929A41500A34617 /* InterfaceFactory.java */,
+				4DA937BD0910931000F1C5EE /* Gui.java */,
+				4D289653091B5AE400947E23 /* Network.java */,
+				4DF6798C0929A61E00A34617 /* Strategy.java */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		4D581B82093830030020A252 /* CardStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				4D581B8B093830130020A252 /* PlayStrategy.java */,
+				4D581B87093830130020A252 /* AttackPlay.java */,
+				4D581B88093830130020A252 /* DefensePlay.java */,
+				4D581B89093830130020A252 /* DefenseRetainPlay.java */,
+				4D581B8A093830130020A252 /* OpenStancePlay.java */,
+				4D581B8C093830130020A252 /* RemovePlay.java */,
+				4D581BB40938342A0020A252 /* IsValidStrategy.java */,
+				4D581BB10938342A0020A252 /* AnotherCardIsValid.java */,
+				4D581BB20938342A0020A252 /* AttackIsValid.java */,
+				4D581BB30938342A0020A252 /* DefenseIsValid.java */,
+				4D581BB50938342A0020A252 /* PreviousAngleIsValid.java */,
+				4D581BBD093834770020A252 /* CanUseStrategy.java */,
+				4D581BBE093834770020A252 /* IncreasedDefenseCostCanUse.java */,
+				4D581BBF093834770020A252 /* NoBlockCanUse.java */,
+				4D581BE20938374A0020A252 /* NoneCanUse.java */,
+				4D581BD9093836C00020A252 /* DamageStrategy.java */,
+				4D581BD1093836B60020A252 /* AbsoluteDamage.java */,
+				4D581BD2093836B60020A252 /* BlockDamage.java */,
+				4D581BD3093836B60020A252 /* NoneDamage.java */,
+				4D581BD4093836B60020A252 /* RelativeDamage.java */,
+				4D581BEE093839610020A252 /* DamageResolutionStrategy.java */,
+				4D581BED093839600020A252 /* ComboDamageResolution.java */,
+				4D581BEF093839610020A252 /* GainDamageResolution.java */,
+				4D581BF0093839610020A252 /* IncreaseCostDamageResolution.java */,
+				4D581BF1093839610020A252 /* NoneDamageResolution.java */,
+				4D581BF2093839610020A252 /* ReduceDamageResolution.java */,
+			);
+			path = CardStrategy;
+			sourceTree = "<group>";
+		};
+		4DF28B1009186BCC0054CBAD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4DF28B0009186B920054CBAD /* attackCardImage.png */,
+				4DF28B0109186B920054CBAD /* characterCardImage.png */,
+				4DF28B0209186B920054CBAD /* defenseCardImage.png */,
+				4DF28B0309186B920054CBAD /* hiroCardImage.png */,
+				4DF28B0409186B920054CBAD /* ivorCardImage.png */,
+				4DF28B0509186B920054CBAD /* joeCardImage.png */,
+				4DF28B0609186B920054CBAD /* mayCardImage.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6A0644A002C7BD230CC91562 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				6A0644AC02C7C26E0CC91562 /* ArcadeFighter.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXJavaArchiveBuildPhase section */
+		130F8B93001BDF0A11CA292A /* JavaArchive */ = {
+			isa = PBXJavaArchiveBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF28B0709186B920054CBAD /* attackCardImage.png in JavaArchive */,
+				4DF28B0809186B920054CBAD /* characterCardImage.png in JavaArchive */,
+				4DF28B0909186B920054CBAD /* defenseCardImage.png in JavaArchive */,
+				4DF28B0A09186B920054CBAD /* hiroCardImage.png in JavaArchive */,
+				4DF28B0B09186B920054CBAD /* ivorCardImage.png in JavaArchive */,
+				4DF28B0C09186B920054CBAD /* joeCardImage.png in JavaArchive */,
+				4DF28B0D09186B920054CBAD /* mayCardImage.png in JavaArchive */,
+				4D2895A10919790100947E23 /* Character.xml in JavaArchive */,
+				4D5815CA092C48AF0020A252 /* Deck.xml in JavaArchive */,
+				4D581F1A093FFB220020A252 /* Card.xml in JavaArchive */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXJavaArchiveBuildPhase section */
+
+/* Begin PBXProject section */
+		00E6828EFEC88D1A11DB9C8B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4DD20D9D090BCA86004ED981 /* Build configuration list for PBXProject "ArcadeFighter" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 00E6828FFEC88D1A11DB9C8B;
+			productRefGroup = 0120612AFEC8923411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130F8B90001BDF0A11CA292A /* ArcadeFighter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130F8B91001BDF0A11CA292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD20DA4090BCAAC004ED981 /* Card.java in Sources */,
+				4DD20DA6090BCAB5004ED981 /* Character.java in Sources */,
+				4DD20DAB090BCABE004ED981 /* Deck.java in Sources */,
+				4DD20DAD090BCABE004ED981 /* Interface.java in Sources */,
+				4DD20DAE090BCABE004ED981 /* Main.java in Sources */,
+				4DD20DB0090BCAC5004ED981 /* Player.java in Sources */,
+				4DA937BE0910931000F1C5EE /* Gui.java in Sources */,
+				4DC8ADC7091879F5006D8EBF /* ArcadeFighter.java in Sources */,
+				4D2895940919729800947E23 /* CharacterFactory.java in Sources */,
+				4D28963C091B4D4200947E23 /* NetworkClient.java in Sources */,
+				4D289654091B5AE400947E23 /* Network.java in Sources */,
+				4DF679200929A07D00A34617 /* AskAngleStrategy.java in Sources */,
+				4DF679210929A07D00A34617 /* AskAttackStrategy.java in Sources */,
+				4DF679220929A07D00A34617 /* AskBoolStrategy.java in Sources */,
+				4DF679230929A07D00A34617 /* AskCharacterStrategy.java in Sources */,
+				4DF679240929A07D00A34617 /* AskDefenseStrategy.java in Sources */,
+				4DF679250929A07D00A34617 /* AskDiscardAttackStrategy.java in Sources */,
+				4DF679260929A07D00A34617 /* AskDiscardDefenseStrategy.java in Sources */,
+				4DF679270929A07D00A34617 /* BestDefense.java in Sources */,
+				4DF6792B0929A0F200A34617 /* DuplicateCoverDiscardDefense.java in Sources */,
+				4DF6792C0929A0F200A34617 /* FalseAskBool.java in Sources */,
+				4DF6792D0929A0F200A34617 /* FixedAskCharacter.java in Sources */,
+				4DF6792F0929A10500A34617 /* LeastDamageDiscardAttack.java in Sources */,
+				4DF679310929A10F00A34617 /* MostCostDiscardAttack.java in Sources */,
+				4DF6793A0929A18D00A34617 /* RandomAskBool.java in Sources */,
+				4DF6793B0929A18D00A34617 /* RandomAskCharacter.java in Sources */,
+				4DF6793C0929A18D00A34617 /* RandomAttack.java in Sources */,
+				4DF6793D0929A18D00A34617 /* RandomDefense.java in Sources */,
+				4DF6793E0929A18D00A34617 /* RandomDiscardAttack.java in Sources */,
+				4DF6793F0929A18D00A34617 /* RandomDiscardDefense.java in Sources */,
+				4DF679410929A19500A34617 /* MostDamageAttack.java in Sources */,
+				4DF6797D0929A41500A34617 /* InterfaceFactory.java in Sources */,
+				4DF6798D0929A61E00A34617 /* Strategy.java in Sources */,
+				4DF679DC0929ADF700A34617 /* DeckFactory.java in Sources */,
+				4D5815B6092C45500020A252 /* KeepZeroCostDefense.java in Sources */,
+				4D58169A092D9B7C0020A252 /* AnyAskAngle.java in Sources */,
+				4D5816A3092D9C8D0020A252 /* MostDiscardedAngle.java in Sources */,
+				4D5816B8092D9FCE0020A252 /* NotRepeatedAngle.java in Sources */,
+				4D5816C9092DA15D0020A252 /* LeastCostAttack.java in Sources */,
+				4D581710092DB4920020A252 /* NotRepeatedIfHitAngle.java in Sources */,
+				4D58172A092DBBC10020A252 /* CheatingAngle.java in Sources */,
+				4D581888093733530020A252 /* Angle.java in Sources */,
+				4D58194409373F3C0020A252 /* CardFactory.java in Sources */,
+				4D581B8D093830130020A252 /* AttackPlay.java in Sources */,
+				4D581B8E093830130020A252 /* DefensePlay.java in Sources */,
+				4D581B8F093830130020A252 /* DefenseRetainPlay.java in Sources */,
+				4D581B90093830130020A252 /* OpenStancePlay.java in Sources */,
+				4D581B91093830130020A252 /* PlayStrategy.java in Sources */,
+				4D581B92093830130020A252 /* RemovePlay.java in Sources */,
+				4D581BB60938342A0020A252 /* AnotherCardIsValid.java in Sources */,
+				4D581BB70938342A0020A252 /* AttackIsValid.java in Sources */,
+				4D581BB80938342A0020A252 /* DefenseIsValid.java in Sources */,
+				4D581BB90938342A0020A252 /* IsValidStrategy.java in Sources */,
+				4D581BBA0938342A0020A252 /* PreviousAngleIsValid.java in Sources */,
+				4D581BC0093834770020A252 /* CanUseStrategy.java in Sources */,
+				4D581BC1093834770020A252 /* IncreasedDefenseCostCanUse.java in Sources */,
+				4D581BC2093834770020A252 /* NoBlockCanUse.java in Sources */,
+				4D581BD5093836B60020A252 /* AbsoluteDamage.java in Sources */,
+				4D581BD6093836B60020A252 /* BlockDamage.java in Sources */,
+				4D581BD7093836B60020A252 /* NoneDamage.java in Sources */,
+				4D581BD8093836B60020A252 /* RelativeDamage.java in Sources */,
+				4D581BDA093836C00020A252 /* DamageStrategy.java in Sources */,
+				4D581BE30938374A0020A252 /* NoneCanUse.java in Sources */,
+				4D581BF3093839610020A252 /* ComboDamageResolution.java in Sources */,
+				4D581BF4093839610020A252 /* DamageResolutionStrategy.java in Sources */,
+				4D581BF5093839610020A252 /* GainDamageResolution.java in Sources */,
+				4D581BF6093839610020A252 /* IncreaseCostDamageResolution.java in Sources */,
+				4D581BF7093839610020A252 /* NoneDamageResolution.java in Sources */,
+				4D581BF8093839610020A252 /* ReduceDamageResolution.java in Sources */,
+				4D581D44093C31FE0020A252 /* ProbabilityAngle.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXToolTarget section */
+		130F8B90001BDF0A11CA292A /* ArcadeFighter */ = {
+			isa = PBXToolTarget;
+			buildConfigurationList = 4DD20D99090BCA86004ED981 /* Build configuration list for PBXToolTarget "ArcadeFighter" */;
+			buildPhases = (
+				130F8B91001BDF0A11CA292A /* Sources */,
+				130F8B93001BDF0A11CA292A /* JavaArchive */,
+				130F8B94001BDF0A11CA292A /* Frameworks */,
+				6A0644BC02C7C42C0CC91562 /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = ArcadeFighter;
+			productInstallPath = /usr/local/bin;
+			productName = ArcadeFighter;
+			productReference = 6A9ED92C02B0286D0CC91562 /* ArcadeFighter.jar */;
+		};
+/* End PBXToolTarget section */
+
+/* Begin XCBuildConfiguration section */
+		4DD20D9A090BCA86004ED981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = ArcadeFighter;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4DD20D9B090BCA86004ED981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = ArcadeFighter;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4DD20D9C090BCA86004ED981 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				JAVA_ARCHIVE_CLASSES = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_ARCHIVE_TYPE = JAR;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_MANIFEST_FILE = Manifest;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = ArcadeFighter;
+				PURE_JAVA = YES;
+				REZ_EXECUTABLE = YES;
+			};
+			name = Default;
+		};
+		4DD20D9E090BCA86004ED981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4DD20D9F090BCA86004ED981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4DD20DA0090BCA86004ED981 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD20D99090BCA86004ED981 /* Build configuration list for PBXToolTarget "ArcadeFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD20D9A090BCA86004ED981 /* Debug */,
+				4DD20D9B090BCA86004ED981 /* Release */,
+				4DD20D9C090BCA86004ED981 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		4DD20D9D090BCA86004ED981 /* Build configuration list for PBXProject "ArcadeFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD20D9E090BCA86004ED981 /* Debug */,
+				4DD20D9F090BCA86004ED981 /* Release */,
+				4DD20DA0090BCA86004ED981 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00E6828EFEC88D1A11DB9C8B /* Project object */;
+}

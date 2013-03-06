@@ -1,0 +1,63 @@
+<deck name=attack1>
+<card>Combo</card>
+<card>HeadButt</card>
+<card>HeavyKick</card>
+<card>HeavyPunch</card>
+<card>Kick</card>
+<card>Kick</card>
+<card>KneeStrike</card>
+<card>LightKick </card>
+<card>LightPunch</card>
+<card>OpenHandStrike</card>
+<card>Punch </card>
+<card>Punch </card>
+<card>Roundhouse </card>
+<card>Rush</card>
+<card>SlidingKick</card>
+<card>SpecialAttack</card>
+<card>Sweep</card>
+<card>Uppercut</card>
+</deck>
+<deck name=attack2>
+<card>Combo</card>
+<card>HeadButt</card>
+<card>HeavyKick</card>
+<card>HeavyPunch</card>
+<card>Kick</card>
+<card>Kick</card>
+<card>KneeStrike</card>
+<card>LightKick </card>
+<card>LightPunch</card>
+<card>OpenHandStrike</card>
+<card>Punch </card>
+<card>Punch </card>
+<card>Roundhouse </card>
+<card>Rush</card>
+<card>SlidingKick</card>
+<card>SpecialAttack</card>
+<card>Sweep</card>
+<card>Uppercut</card>
+</deck>
+<deck name=defense1>
+<card>BackStep</card>
+<card>Duck</card>
+<card>Guard</card>
+<card>HighBlock</card>
+<card>Jump</card>
+<card>LowBlock</card>
+<card>OpenStance</card>
+<card>Ready</card>
+<card>Ready</card>
+</deck>
+<deck name=defense2>
+<card>BackStep</card>
+<card>Duck</card>
+<card>Guard</card>
+<card>HighBlock</card>
+<card>Jump</card>
+<card>LowBlock</card>
+<card>OpenStance</card>
+<card>Ready</card>
+<card>Ready</card>
+</deck>
+

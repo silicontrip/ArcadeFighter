@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.4.2_09" class="java.beans.XMLDecoder"> 
+ <object class="Deck"> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>M</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="AbsoluteDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="DefenseIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>3</int> 
+    </void> 
+    <void property="name"> 
+     <string>BackStep</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="DefenseRetainPlay"/> 
+    </void> 
+    <void property="retainCost"> 
+     <int>2</int> 
+    </void> 
+    <void property="specialText"> 
+     <string>You may pay an extra
+2 energy to avoid
+discarding this card</string> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>H</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="AbsoluteDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="DefenseIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>3</int> 
+    </void> 
+    <void property="name"> 
+     <string>Duck</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="DefenseRetainPlay"/> 
+    </void> 
+    <void property="retainCost"> 
+     <int>2</int> 
+    </void> 
+    <void property="specialText"> 
+     <string>You may pay an extra
+2 energy to avoid
+discarding this card</string> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>L</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="AbsoluteDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="DefenseIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>3</int> 
+    </void> 
+    <void property="name"> 
+     <string>Jump</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="DefenseRetainPlay"/> 
+    </void> 
+    <void property="retainCost"> 
+     <int>2</int> 
+    </void> 
+    <void property="specialText"> 
+     <string>You may pay an extra
+2 energy to avoid
+discarding this card</string> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="AbsoluteDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="PreviousAngleIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>3</int> 
+    </void> 
+    <void property="name"> 
+     <string>Ready</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="DefensePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>You may only use Ready
+against an attack that
+uses the same angle as
+the opponent&apos;s previous
+attack</string> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>2</int> 
+    </void> 
+    <void property="damage"> 
+     <int>-1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="RelativeDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="DefenseIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>1</int> 
+    </void> 
+    <void property="name"> 
+     <string>Guard</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="DefensePlay"/> 
+    </void> 
+    <void property="stun"> 
+     <int>-4</int> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HM</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="damage"> 
+     <int>-1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="BlockDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="DefenseIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>1</int> 
+    </void> 
+    <void property="name"> 
+     <string>HighBlock</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="DefensePlay"/> 
+    </void> 
+    <void property="reduceAngle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>H</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="reduceDamage"> 
+     <int>1</int> 
+    </void> 
+    <void property="specialText"> 
+     <string>Reduce the damage of
+the attack by another
+1 if the angle of the
+attack is H</string> 
+    </void> 
+    <void property="stun"> 
+     <int>-2</int> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>ML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="damage"> 
+     <int>-1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="BlockDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="DefenseIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>1</int> 
+    </void> 
+    <void property="name"> 
+     <string>LowBlock</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="DefensePlay"/> 
+    </void> 
+    <void property="reduceAngle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>L</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="reduceDamage"> 
+     <int>1</int> 
+    </void> 
+    <void property="specialText"> 
+     <string>Reduce the damage of
+the attack by another
+1 if the angle of the
+attack is L</string> 
+    </void> 
+    <void property="stun"> 
+     <int>-2</int> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>defenseCardImage.png</string> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AnotherCardIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>2</int> 
+    </void> 
+    <void property="name"> 
+     <string>OpenStance</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="OpenStancePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Immediately after you
+play Open Stance. you
+may play another defense
+against the same attack
+for free</string> 
+    </void> 
+    <void property="type"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="addCost"> 
+     <int>3</int> 
+    </void> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>L</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>2</int> 
+    </void> 
+    <void property="damage"> 
+     <int>2</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="ComboDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="mulDamage"> 
+     <int>3</int> 
+    </void> 
+    <void property="name"> 
+     <string>Combo</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Just before damage is
+dealt, the attacker may
+spend 3 extra energy to
+triple the damage. Remove
+from game after use</string> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>M</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>5</int> 
+    </void> 
+    <void property="damage"> 
+     <int>6</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="name"> 
+     <string>SpecialAttack</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Remove from game after
+use</string> 
+    </void> 
+    <void property="stun"> 
+     <int>2</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>H</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>2</int> 
+    </void> 
+    <void property="damage"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="name"> 
+     <string>HeadButt</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Remove from game after
+use</string> 
+    </void> 
+    <void property="stun"> 
+     <int>4</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>4</int> 
+    </void> 
+    <void property="damage"> 
+     <int>4</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>4</int> 
+    </void> 
+    <void property="name"> 
+     <string>HeavyKick</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="stun"> 
+     <int>2</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>3</int> 
+    </void> 
+    <void property="damage"> 
+     <int>3</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>4</int> 
+    </void> 
+    <void property="name"> 
+     <string>Kick</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="stun"> 
+     <int>1</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>2</int> 
+    </void> 
+    <void property="damage"> 
+     <int>2</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>4</int> 
+    </void> 
+    <void property="name"> 
+     <string>LightKick</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>4</int> 
+    </void> 
+    <void property="damage"> 
+     <int>3</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>5</int> 
+    </void> 
+    <void property="name"> 
+     <string>HeavyPunch</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="stun"> 
+     <int>3</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>2</int> 
+    </void> 
+    <void property="damage"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>5</int> 
+    </void> 
+    <void property="name"> 
+     <string>LightPunch</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="stun"> 
+     <int>1</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>3</int> 
+    </void> 
+    <void property="damage"> 
+     <int>2</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>5</int> 
+    </void> 
+    <void property="name"> 
+     <string>Punch</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="stun"> 
+     <int>2</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>ML</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoBlockCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>3</int> 
+    </void> 
+    <void property="damage"> 
+     <int>2</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="ReduceDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>4</int> 
+    </void> 
+    <void property="name"> 
+     <string>KneeStrike</string> 
+    </void> 
+    <void property="nextEnergy"> 
+     <int>-2</int> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Blocks may not be used
+against this attack. The
+opponent gains 2 less
+energy next turn if they
+are damaged by this
+attack.</string> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+    <void property="noMoveType">
+	<int>1</int>
+    </void>
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>HM</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoBlockCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>3</int> 
+    </void> 
+    <void property="damage"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="ReduceDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>5</int> 
+    </void> 
+    <void property="name"> 
+     <string>OpenHandStrike</string> 
+    </void> 
+    <void property="nextEnergy"> 
+     <int>-2</int> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="AttackPlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Blocks may not be used
+against this attack. The
+opponent gains 2 less
+energy next turn if they
+are damaged by this
+attack.</string> 
+    </void> 
+    <void property="stun"> 
+     <int>1</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+    <void property="noMoveType">
+        <int>1</int>
+    </void>
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>H</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoBlockCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>4</int> 
+    </void> 
+    <void property="damage"> 
+     <int>3</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="name"> 
+     <string>Roundhouse</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Blocks may not be used
+against this attack.
+Remove from game after
+use</string> 
+    </void> 
+    <void property="stun"> 
+     <int>1</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+    <void property="noMoveType">
+        <int>1</int>
+    </void>
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>L</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoBlockCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>4</int> 
+    </void> 
+    <void property="damage"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="NoneDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="name"> 
+     <string>SlidingKick</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Blocks may not be used
+against this attack.
+Remove from game after
+use</string> 
+    </void> 
+    <void property="stun"> 
+     <int>3</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+    <void property="noMoveType">
+        <int>1</int>
+    </void>
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>M</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="IncreasedDefenseCostCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>4</int> 
+    </void> 
+    <void property="damage"> 
+     <int>1</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="IncreaseCostDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="name"> 
+     <string>Rush</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Defenses cost 2 more
+against this attack.
+Remove from game after
+use</string> 
+    </void> 
+    <void property="stun"> 
+     <int>3</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+    <void property="defenseCost"> 
+     <int>2</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="addCost"> 
+     <int>-2</int> 
+    </void> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>L</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>3</int> 
+    </void> 
+    <void property="damage"> 
+     <int>2</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="GainDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="name"> 
+     <string>Sweep</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Gain 2 energy if the
+attack damages the
+opponent. Remove from
+game after use</string> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="Card"> 
+    <void property="addCost"> 
+     <int>-2</int> 
+    </void> 
+    <void property="angle"> 
+     <object class="Angle"> 
+      <void property="angle"> 
+       <string>H</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canUseStrategy"> 
+     <object class="NoneCanUse"/> 
+    </void> 
+    <void property="cardImageName"> 
+     <string>attackCardImage.png</string> 
+    </void> 
+    <void property="cost"> 
+     <int>4</int> 
+    </void> 
+    <void property="damage"> 
+     <int>3</int> 
+    </void> 
+    <void property="damageResolutionStrategy"> 
+     <object class="GainDamageResolution"/> 
+    </void> 
+    <void property="damageStrategy"> 
+     <object class="NoneDamage"/> 
+    </void> 
+    <void property="isValidStrategy"> 
+     <object class="AttackIsValid"/> 
+    </void> 
+    <void property="move"> 
+     <int>6</int> 
+    </void> 
+    <void property="name"> 
+     <string>Uppercut</string> 
+    </void> 
+    <void property="playStrategy"> 
+     <object class="RemovePlay"/> 
+    </void> 
+    <void property="specialText"> 
+     <string>Gain 2 energy if the
+attack damages the
+opponent. Remove from
+game after use</string> 
+    </void> 
+    <void property="stun"> 
+     <int>1</int> 
+    </void> 
+    <void property="type"> 
+     <int>1</int> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

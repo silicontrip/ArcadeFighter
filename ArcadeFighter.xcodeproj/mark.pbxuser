@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	00E6828EFEC88D1A11DB9C8B /* Project object */ = {
+		activeArchitecture = ppc;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 130F8B98001BDF0A11CA292A;
+		activeTarget = 130F8B90001BDF0A11CA292A /* ArcadeFighter */;
+		addToTargets = (
+			130F8B90001BDF0A11CA292A /* ArcadeFighter */,
+		);
+		codeSenseManager = 4DD20DA2090BCA86004ED981 /* Code sense */;
+		executables = (
+			130F8B98001BDF0A11CA292A,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					177,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					138,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					287,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					120,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					190,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					247,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 217547816;
+			PBXWorkspaceStateSaveDate = 217547816;
+		};
+		perUserProjectItems = {
+			4D0ECFB5099B02B300977A08 = 4D0ECFB5099B02B300977A08 /* PBXBookmark */;
+			4D0ECFBA099B1EF100977A08 = 4D0ECFBA099B1EF100977A08 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4DD20DA1090BCA86004ED981 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	130F8B90001BDF0A11CA292A /* ArcadeFighter */ = {
+		activeExec = 0;
+	};
+	130F8B98001BDF0A11CA292A = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-jar \"ArcadeFighter.jar\" ",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = JavaDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 130F8B99001BDF0A11CA292A /* java */;
+		libgmallocEnabled = 0;
+		sourceDirectories = (
+		);
+	};
+	130F8B99001BDF0A11CA292A /* java */ = {
+		isa = PBXFileReference;
+		explicitFileType = "compiled.mach-o.executable";
+		name = java;
+		path = /usr/bin/java;
+		sourceTree = "<absolute>";
+	};
+	4D0ECFB5099B02B300977A08 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4DA937BD0910931000F1C5EE /* Gui.java */;
+	};
+	4D0ECFBA099B1EF100977A08 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DA937BD0910931000F1C5EE /* Gui.java */;
+		name = "Gui.java: 19";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 0;
+	};
+	4D2895930919729800947E23 /* CharacterFactory.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1114, 672}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{87, 1000}";
+			sepNavVisRect = "{{0, 0}, {1134, 602}}";
+			sepNavWindowFrame = "{{40, 75}, {1173, 731}}";
+		};
+	};
+	4D2895A00919790100947E23 /* Character.xml */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{467, 47}\";\n        }\n    );\n    r = \"{0, 2484}\";\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {820, 1540}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1039}";
+			sepNavVisRect = "{{0, 0}, {840, 605}}";
+			sepNavWindowFrame = "{{140, 138}, {879, 734}}";
+		};
+	};
+	4D28963B091B4D4200947E23 /* NetworkClient.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {758, 1848}}";
+			sepNavSelRange = "{1928, 0}";
+			sepNavVisRect = "{{0, 613}, {708, 462}}";
+			sepNavWindowFrame = "{{15, 49}, {1096, 778}}";
+		};
+	};
+	4D289653091B5AE400947E23 /* Network.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {795, 2996}}";
+			sepNavSelRange = "{3836, 0}";
+			sepNavVisRect = "{{0, 2360}, {795, 636}}";
+			sepNavWindowFrame = "{{149, 51}, {876, 781}}";
+		};
+	};
+	4D5815B5092C45500020A252 /* KeepZeroCostDefense.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {791, 388}}";
+			sepNavSelRange = "{226, 0}";
+			sepNavVisRect = "{{0, 0}, {791, 388}}";
+		};
+	};
+	4D581699092D9B7C0020A252 /* AnyAskAngle.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 619}}";
+			sepNavSelRange = "{83, 0}";
+			sepNavVisRect = "{{0, 0}, {753, 619}}";
+			sepNavWindowFrame = "{{219, 84}, {792, 748}}";
+		};
+	};
+	4D5816A2092D9C8C0020A252 /* MostDiscardedAngle.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 504}}";
+			sepNavSelRange = "{578, 235}";
+			sepNavVisRect = "{{0, 0}, {708, 462}}";
+			sepNavWindowFrame = "{{518, 144}, {747, 591}}";
+		};
+	};
+	4D5816B7092D9FCE0020A252 /* NotRepeatedAngle.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 619}}";
+			sepNavSelRange = "{459, 0}";
+			sepNavVisRect = "{{0, 0}, {753, 619}}";
+			sepNavWindowFrame = "{{491, 230}, {750, 558}}";
+		};
+	};
+	4D5816C8092DA15D0020A252 /* LeastCostAttack.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {791, 388}}";
+			sepNavSelRange = "{207, 0}";
+			sepNavVisRect = "{{0, 0}, {791, 388}}";
+		};
+	};
+	4D58170F092DB4920020A252 /* NotRepeatedIfHitAngle.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 462}}";
+			sepNavSelRange = "{30, 0}";
+			sepNavVisRect = "{{0, 0}, {708, 462}}";
+			sepNavWindowFrame = "{{534, 167}, {747, 591}}";
+		};
+	};
+	4D581729092DBBC10020A252 /* CheatingAngle.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 1638}}";
+			sepNavSelRange = "{1686, 266}";
+			sepNavVisRect = "{{0, 644}, {716, 638}}";
+			sepNavWindowFrame = "{{294, 65}, {755, 767}}";
+		};
+	};
+	4D581887093733530020A252 /* Angle.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {726, 798}}";
+			sepNavSelRange = "{1015, 0}";
+			sepNavVisRect = "{{0, 393}, {726, 405}}";
+			sepNavWindowFrame = "{{507, 72}, {742, 760}}";
+		};
+	};
+	4D58194309373F3B0020A252 /* CardFactory.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1134, 4886}}";
+			sepNavSelRange = "{10697, 0}";
+			sepNavVisRect = "{{0, 15}, {1134, 602}}";
+			sepNavWindowFrame = "{{65, 101}, {1173, 731}}";
+		};
+	};
+	4D581B87093830130020A252 /* AttackPlay.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{29, -62}, {1123, 764}}";
+		};
+	};
+	4D581B89093830130020A252 /* DefenseRetainPlay.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{729, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581B8A093830130020A252 /* OpenStancePlay.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 756}}";
+			sepNavSelRange = "{254, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 631}}";
+			sepNavWindowFrame = "{{268, 72}, {742, 760}}";
+		};
+	};
+	4D581B8B093830130020A252 /* PlayStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581B8C093830130020A252 /* RemovePlay.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581BB10938342A0020A252 /* AnotherCardIsValid.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1084, 635}}";
+			sepNavSelRange = "{369, 0}";
+			sepNavVisRect = "{{0, 0}, {1084, 635}}";
+		};
+	};
+	4D581BB20938342A0020A252 /* AttackIsValid.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {697, 624}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {697, 624}}";
+			sepNavWindowFrame = "{{15, 74}, {736, 753}}";
+		};
+	};
+	4D581BB30938342A0020A252 /* DefenseIsValid.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1084, 635}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRect = "{{0, 0}, {1084, 635}}";
+		};
+	};
+	4D581BB50938342A0020A252 /* PreviousAngleIsValid.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1084, 635}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRect = "{{0, 0}, {1084, 635}}";
+		};
+	};
+	4D581BBD093834770020A252 /* CanUseStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1134, 602}}";
+			sepNavSelRange = "{103, 0}";
+			sepNavVisRect = "{{0, 0}, {1134, 602}}";
+		};
+	};
+	4D581BBE093834770020A252 /* IncreasedDefenseCostCanUse.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 638}}";
+			sepNavSelRange = "{0, 68}";
+			sepNavVisRect = "{{0, 0}, {716, 638}}";
+		};
+	};
+	4D581BBF093834770020A252 /* NoBlockCanUse.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 638}}";
+			sepNavSelRange = "{176, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 638}}";
+			sepNavWindowFrame = "{{38, 53}, {736, 753}}";
+		};
+	};
+	4D581BD1093836B60020A252 /* AbsoluteDamage.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581BD2093836B60020A252 /* BlockDamage.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{395, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{183, -136}, {1123, 764}}";
+		};
+	};
+	4D581BD4093836B60020A252 /* RelativeDamage.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581BED093839600020A252 /* ComboDamageResolution.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 638}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 638}}";
+			sepNavWindowFrame = "{{353, 67}, {907, 765}}";
+		};
+	};
+	4D581BEE093839610020A252 /* DamageResolutionStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581BEF093839610020A252 /* GainDamageResolution.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581BF0093839610020A252 /* IncreaseCostDamageResolution.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 638}}";
+			sepNavSelRange = "{13, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 638}}";
+		};
+	};
+	4D581BF1093839610020A252 /* NoneDamageResolution.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4D581BF2093839610020A252 /* ReduceDamageResolution.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 638}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 638}}";
+			sepNavWindowFrame = "{{15, 96}, {1173, 731}}";
+		};
+	};
+	4D581D43093C31FE0020A252 /* ProbabilityAngle.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 1974}}";
+			sepNavSelRange = "{328, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 638}}";
+			sepNavWindowFrame = "{{294, 65}, {755, 767}}";
+		};
+	};
+	4DA937BD0910931000F1C5EE /* Gui.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 10164}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 638}}";
+			sepNavWindowFrame = "{{466, 61}, {755, 767}}";
+		};
+	};
+	4DD20DA1090BCA86004ED981 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	4DD20DA2090BCA86004ED981 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4DD20DA3090BCAAC004ED981 /* Card.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {914, 3248}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRect = "{{0, 2617}, {703, 631}}";
+			sepNavWindowFrame = "{{429, 72}, {742, 760}}";
+		};
+	};
+	4DD20DA5090BCAB5004ED981 /* Character.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1226, 1106}}";
+			sepNavSelRange = "{2160, 0}";
+			sepNavVisRect = "{{0, 0}, {1226, 652}}";
+			sepNavWindowFrame = "{{15, 51}, {1265, 781}}";
+		};
+	};
+	4DD20DA7090BCABE004ED981 /* Deck.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {791, 1260}}";
+			sepNavSelRange = "{1008, 21}";
+			sepNavVisRect = "{{0, 308}, {791, 388}}";
+			sepNavWindowFrame = "{{50, 274}, {750, 558}}";
+		};
+	};
+	4DD20DA9090BCABE004ED981 /* Interface.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {986, 3332}}";
+			sepNavSelRange = "{790, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{-8, 64}, {734, 768}}";
+		};
+	};
+	4DD20DAA090BCABE004ED981 /* Main.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1040, 2184}}";
+			sepNavSelRange = "{4685, 0}";
+			sepNavVisRect = "{{0, 1274}, {703, 631}}";
+			sepNavWindowFrame = "{{268, 72}, {742, 760}}";
+		};
+	};
+	4DD20DAF090BCAC5004ED981 /* Player.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 2044}}";
+			sepNavSelRange = "{117, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{200, 67}, {907, 765}}";
+		};
+	};
+	4DD20DC1090BCBB5004ED981 /* ArcadeFighter.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 3248}}";
+			sepNavSelRange = "{4307, 0}";
+			sepNavVisRect = "{{0, 2582}, {716, 638}}";
+			sepNavWindowFrame = "{{294, 65}, {755, 767}}";
+		};
+	};
+	4DF679180929A07D00A34617 /* AskAngleStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{85, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{295, 66}, {907, 765}}";
+		};
+	};
+	4DF679190929A07D00A34617 /* AskAttackStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{15, 46}, {1265, 781}}";
+		};
+	};
+	4DF6791A0929A07D00A34617 /* AskBoolStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4DF6791B0929A07D00A34617 /* AskCharacterStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{78, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{78, 72}, {742, 760}}";
+		};
+	};
+	4DF6791E0929A07D00A34617 /* AskDiscardDefenseStrategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {791, 388}}";
+			sepNavSelRange = "{0, 45}";
+			sepNavVisRect = "{{0, 0}, {791, 388}}";
+			sepNavWindowFrame = "{{15, 49}, {1096, 778}}";
+		};
+	};
+	4DF6791F0929A07D00A34617 /* BestDefense.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998, 868}}";
+			sepNavSelRange = "{880, 0}";
+			sepNavVisRect = "{{0, 0}, {753, 619}}";
+			sepNavWindowFrame = "{{388, 154}, {747, 591}}";
+		};
+	};
+	4DF679280929A0F200A34617 /* DuplicateCoverDiscardDefense.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 910}}";
+			sepNavSelRange = "{1923, 21}";
+			sepNavVisRect = "{{0, 488}, {1239, 411}}";
+		};
+	};
+	4DF6792A0929A0F200A34617 /* FixedAskCharacter.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {791, 388}}";
+			sepNavSelRange = "{307, 0}";
+			sepNavVisRect = "{{0, 0}, {791, 388}}";
+			sepNavWindowFrame = "{{15, 62}, {907, 765}}";
+		};
+	};
+	4DF6792E0929A10500A34617 /* LeastDamageDiscardAttack.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1226, 652}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1226, 652}}";
+			sepNavWindowFrame = "{{15, 46}, {1265, 781}}";
+		};
+	};
+	4DF679330929A18D00A34617 /* RandomAskBool.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {695, 639}}";
+			sepNavSelRange = "{86, 0}";
+			sepNavVisRect = "{{0, 0}, {695, 639}}";
+		};
+	};
+	4DF679340929A18D00A34617 /* RandomAskCharacter.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{273, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+		};
+	};
+	4DF679350929A18D00A34617 /* RandomAttack.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{61, 194}, {747, 591}}";
+		};
+	};
+	4DF679360929A18D00A34617 /* RandomDefense.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {695, 639}}";
+			sepNavSelRange = "{20, 0}";
+			sepNavVisRect = "{{0, 0}, {695, 639}}";
+		};
+	};
+	4DF679370929A18D00A34617 /* RandomDiscardAttack.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {868, 636}}";
+			sepNavSelRange = "{343, 0}";
+			sepNavVisRect = "{{0, 0}, {868, 636}}";
+			sepNavWindowFrame = "{{106, 52}, {734, 768}}";
+		};
+	};
+	4DF679380929A18D00A34617 /* RandomDiscardDefense.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 631}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 631}}";
+			sepNavWindowFrame = "{{151, 69}, {742, 760}}";
+		};
+	};
+	4DF679400929A19500A34617 /* MostDamageAttack.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 619}}";
+			sepNavSelRange = "{114, 0}";
+			sepNavVisRect = "{{0, 0}, {753, 619}}";
+			sepNavWindowFrame = "{{242, 177}, {747, 591}}";
+		};
+	};
+	4DF6797C0929A41500A34617 /* InterfaceFactory.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 1162}}";
+			sepNavSelRange = "{2450, 49}";
+			sepNavVisRect = "{{0, 504}, {753, 619}}";
+			sepNavWindowFrame = "{{38, 75}, {1173, 731}}";
+		};
+	};
+	4DF6798C0929A61E00A34617 /* Strategy.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1084, 1680}}";
+			sepNavSelRange = "{1170, 0}";
+			sepNavVisRect = "{{0, 501}, {1084, 635}}";
+			sepNavWindowFrame = "{{94, 68}, {1123, 764}}";
+		};
+	};
+	4DF679DB0929ADF700A34617 /* DeckFactory.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 1330}}";
+			sepNavSelRange = "{1011, 3}";
+			sepNavVisRect = "{{0, 444}, {703, 631}}";
+			sepNavWindowFrame = "{{185, 72}, {742, 760}}";
+		};
+	};
+	6A8008AE02C7B68F0CC91562 /* Manifest */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {695, 639}}";
+			sepNavSelRange = "{17, 0}";
+			sepNavVisRect = "{{0, 0}, {695, 639}}";
+			sepNavWindowFrame = "{{126, 64}, {734, 768}}";
+		};
+	};
+}
